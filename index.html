@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reading Log</title>
+</head>
+<body>
+    <h1>Reading Log</h1>
+    <form action="" id="form">
+        <div class="container">
+            <label for="title">Book Title: </label>
+            <input id="title" type="text"><br>
+            <label for="pages">Number of Pages: </label>
+            <input id="pages" type="text"><br>
+            <label for="author">Author: </label>
+            <input id="author" type="text"><br>
+            <button onclick="addBook()">Add Book</button>
+            <button onclick="showBook()">Show Book</button> 
+        </div>
+    </form>
+    <p>Total Pages: <span id="totalPages">0</span></p>
+    <p>Books Read: <span id="bookCount">0</span></p> 
+    <script src="script.js"></script>
+</body>
+</html>
